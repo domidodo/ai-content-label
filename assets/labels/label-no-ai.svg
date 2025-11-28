@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="150" viewBox="0 0 320 150" role="img" aria-labelledby="title-noai">
+  <title id="title-noai">No AI</title>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3f4f6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="4" y="4" width="312" height="142" rx="14" fill="url(#g1)" stroke="#d1d5db" />
+
+  <!-- left icon area -->
+  <g transform="translate(20,25)">
+    <!-- circle -->
+    <circle cx="40" cy="40" r="40" fill="#e6f7ff" stroke="#66b2ff" stroke-width="2"/>
+    <!-- check mark inside circle (symbolizing "no AI" as human-verified/plain) -->
+    <path d="M24 40 L34 50 L56 28" fill="none" stroke="#0369a1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- small human silhouette (subtle) -->
+    <circle cx="24" cy="18" r="6" fill="#0369a1"/>
+    <path d="M18 34c3-6 18-6 22 0" fill="none" stroke="#0369a1" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- text (right) -->
+  <text x="140" y="78" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial" font-size="28" font-weight="700" fill="#0f172a">No AI</text>
+</svg>

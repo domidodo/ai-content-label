@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="150" viewBox="0 0 320 150" role="img" aria-labelledby="title-support">
+  <title id="title-support">AI Support</title>
+  <defs>
+    <linearGradient id="g4" x1="0" x2="1">
+      <stop offset="0" stop-color="#fbf8ff"/>
+      <stop offset="1" stop-color="#f3e8ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="312" height="142" rx="14" fill="url(#g4)" stroke="#c4b5fd" />
+
+  <!-- left icon: lightbulb + chat, centered -->
+  <g transform="translate(18,20)">
+    <rect x="8" y="8" width="64" height="64" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+    <g transform="translate(20,18)">
+      <path d="M18 8c-6 0-10 5-10 10 0 6 4 8 6 10v6h8v-6c2-2 6-4 6-10 0-5-4-10-10-10z" fill="#7c3aed"/>
+      <rect x="12" y="34" width="12" height="8" rx="2" fill="#7c3aed"/>
+      <rect x="-16" y="-18" width="34" height="18" rx="4" fill="#ede9fe"/>
+      <path d="M-2 -2 L-6 6 L6 0" fill="#ede9fe"/>
+    </g>
+  </g>
+
+  <text x="120" y="86" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="28" font-weight="700" fill="#3c096c">AI Support</text>
+</svg>

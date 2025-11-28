@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="150" viewBox="0 0 320 150" role="img" aria-labelledby="title-translation">
+  <title id="title-translation">AI Translation</title>
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1">
+      <stop offset="0" stop-color="#f0fdf4"/>
+      <stop offset="1" stop-color="#dcfce7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="312" height="142" rx="14" fill="url(#g3)" stroke="#86efac" />
+
+  <!-- left icon: globe + speech bubble (centred) -->
+  <g transform="translate(18,20)">
+    <circle cx="48" cy="48" r="36" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+    <path d="M48 12 A36 36 0 0 1 48 84" fill="none" stroke="#10b981" stroke-width="1.5"/>
+    <path d="M12 48 H84" fill="none" stroke="#10b981" stroke-width="1.5"/>
+    <path d="M28 24 Q48 48 28 72" fill="none" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="0" y="0" width="26" height="22" rx="4" fill="#10b981" transform="translate(0,-6)"/>
+    <path d="M12 18 L8 24 L16 20" fill="#10b981" transform="translate(0,-6)"/>
+  </g>
+
+  <text x="120" y="82" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial" font-size="28" font-weight="700" fill="#064e3b">AI Translation</text>
+</svg>

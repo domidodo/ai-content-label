@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="150" viewBox="0 0 320 150" role="img" aria-labelledby="title-reviewed">
+  <title id="title-reviewed">AI Generated (Reviewed)</title>
+  <defs>
+    <linearGradient id="g5" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="312" height="142" rx="14" fill="url(#g5)" stroke="#c7d2fe" />
+
+  <!-- left icon: robot head + check badge -->
+  <g transform="translate(18,18)">
+    <rect x="10" y="10" width="64" height="64" rx="12" fill="#fff" stroke="#4338ca" stroke-width="2"/>
+    <!-- robot face -->
+    <rect x="26" y="26" width="20" height="12" rx="3" fill="#eef2ff"/>
+    <circle cx="32" cy="36" r="2" fill="#4338ca"/>
+    <circle cx="44" cy="36" r="2" fill="#4338ca"/>
+    <rect x="30" y="44" width="12" height="3" rx="1" fill="#a78bfa"/>
+    <!-- check badge -->
+    <g transform="translate(2,64)">
+      <circle cx="74" cy="-6" r="14" fill="#10b981" stroke="#047857"/>
+      <path d="M68 -8 L72 -2 L82 -14" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <text x="140" y="66" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial" font-size="20" font-weight="700" fill="#1e293b">AI Generated</text>
+  <text x="140" y="94" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial" font-size="19" fill="#334155">Reviewed by human</text>
+</svg>
